@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="shortcut icon" href="img/cf.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/dsSignup.css" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+	<div class="container-fluid ds_homePage" style="position:relative;" >
+
+		   <div class="searchBox">
+		   		<div class="">
+		   			<select></select>
+		   			<input type="text" placeholder="Search the specific property you looking to Join or Pitch">
+		   		</div>
+		   </div>
+		   <div class="loginDiv">
+		   		<div class="col-md-12 col-sm-12" >
+			   		<span>Hello User, please sign in: </span>
+			   		<input type="text" placeholder="Email Id"/>
+			   		<input type="password" placeholder="Password"/>
+			   		<a href="#" class="pull-left" style="margin:10px 0px;color:#fff;">Forgot Password?</a>
+			 	</div>
+			 	<div class="col-md-12 col-sm-12">
+			   		<div class="col-md-6 col-xs-6">
+			   			<input type="button" class="signIn" value="Sign In" />
+			   			<input type="checkbox" />Remember Me
+			   		</div>
+			   		<div class="col-md-6 col-xs-6">
+			   			<input type="button" class="signUp pull-right" value="Sign Up" />
+			   			 <label style="padding-left:10px;">Not Registered yet</label>
+			   		</div>
+		   		</div>
+		   		<div class="col-md-12 col-sm-12">
+		   			<hr style="border:1px solid #fff;" />
+			   		<span>Not Sure yet,enjoy the video:</span>
+			   		<div class="videoEmbedd" ></div>
+		   		</div>
+		   </div>
+		
+
+
+			<!-- header section start -->
+			<div class="row ds_headerSection"></div>
+			<!-- header section end -->
+
+			<div class="row ds_coverImage">
+				<img src="img/coverImg.png" style="">
+			</div>
+
+
+			<div class="row ds_featureHotDeals">
+					<div class="dealsWrap">
+						<div class="col-md-6 col-sm-6">
+								<div class="col-md-12 col-sm-12 featuredDeals">
+									<div class="row dealHeader">
+										FEATURED DEALS
+									</div>
+									<div class="row">
+										<div class="col-md-4 col-sm-4" style="padding:0px 5px 0px 10px">
+											<div></div>
+										</div>
+										<div class="col-md-4 col-sm-4" style="padding:0px 5px">
+											<div></div>
+										</div>
+										<div class="col-md-4 col-sm-4" style="padding:0px 10px 0px 5px">
+											<div></div>
+										</div>
+									</div>
+									
+								</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="col-md-12 col-sm-12 hotDeals">
+								    <div class="row dealHeader">
+								    	HOT DEALS
+								    </div>
+									<div class="row">
+										<div class="col-md-4 col-sm-4" style="padding:0px 5px 0px 10px">
+											<div></div>
+										</div>
+										<div class="col-md-4 col-sm-4" style="padding:0px 5px">
+											<div></div>
+										</div>
+										<div class="col-md-4 col-sm-4" style="padding:0px 10px 0px 5px">
+											<div></div>
+										</div>
+									</div>
+								
+							</div>
+						</div>
+					</div>
+					<div>
+						<center>
+							<input type="button" class="" value="VIEW ALL"/>
+						</center>
+					</div>
+				
+			</div>
+
+
+
+			<!-- footer section start -->
+			<div class="footerMainWrapper">
+				
+			</div>
+			<!-- footer section end -->
+
+	</div><!-- container end -->
+
+	
+	<script src="js/lib/jquery.js" ></script>
+	<script src="js/lib/bootstrap.js" ></script>
+	<script src="js/locality.js" ></script>
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		$(".ds_headerSection").load("header.html"); 
+		$(".footerMainWrapper").load("footer.html"); 	
+	});
+</script>
+</body>
+</html>

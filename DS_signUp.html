@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="shortcut icon" href="img/cf.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/dsSignup.css" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+	<div class="container-fluid" >
+			<!-- header section start -->
+			<div class="row ds_headerSection">
+				
+			</div>
+			<!-- header section end -->
+
+			<!-- login section start -->
+			<div class="row ds_loginSection">
+
+				<div class=" ds_loginWrap">
+					<center>
+						<div class="welcomeDiv">Welcome to DealSmart</div>
+					</center>
+					<div class="circleOR">or</div>	
+					<div class="col-md-6 col-sm-6 socialDiv">
+						<div class="socialContentWrap" >
+							<center>
+								<div class="exploreD">Sign Up to Explore Great Deals</div>
+								<img src="img/fb.png">
+								<div class="afterFb">We will never share your personal information with anyone, ever.</div>
+							</center>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 loginForm">
+						<div class="inputWrap " >
+								<div class="bbWrap">
+									<div class="col-md-6 col-sm-6 aBr">Broker</div>
+									<div class="col-md-6 col-sm-6">Buyer</div>
+								</div>
+								<input type="text" placeholder="Full Name"/>
+								<input type="text" placeholder="Email"/>
+								<input type="text" placeholder="Password"/>
+								<input type="text" placeholder="Confirm Password"/>
+								<input type="text" placeholder="Company Name"/>
+								<input type="text" placeholder="Phone"/>
+								<input type="text" placeholder="PAN Card Number"/>
+								<label>mandatary to fill</label>
+								<input type="button" value="Register">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- login section end -->
+
+
+			<!-- after login section start -->
+			<div class="row ds_afterLoginSection">
+
+					
+			</div>
+			<!-- after login section end -->
+			
+			<!-- footer section start -->
+			<div class="footerMainWrapper">
+				
+			</div>
+			<!-- footer section end -->
+
+	</div><!-- container end -->
+
+	
+	<script src="js/lib/jquery.js" ></script>
+	<script src="js/lib/bootstrap.js" ></script>
+	<script src="js/locality.js" ></script>
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		$(".ds_headerSection").load("header.html"); 
+		$(".footerMainWrapper").load("footer.html"); 	
+	});
+</script>
+</body>
+</html>

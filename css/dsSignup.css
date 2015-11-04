@@ -1,0 +1,534 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: local('Roboto-Regular'), 
+    	 url('../fonts-roboto/Roboto-Regular.woff2') format('woff2');
+  }
+
+
+body{
+	font-family: Roboto;
+	}
+.ds_headerSection{
+	background-color:  #ffffff;
+	box-shadow: 0px 10px 8px 0px rgba(142, 142, 142, 0.29);
+	height: 104px;
+	overflow: hidden;
+	padding:10px;
+}
+
+.ds_loginWrap{
+	position: relative;
+}
+.welcomeDiv{
+	position: absolute;
+	left:34%;
+	background-color:  #298293;
+	box-shadow: 0px 8px 3.76px 0.24px rgba(62, 55, 55, 0.69);
+	width: 416px;
+	height: 48px;
+	margin:0 auto;
+	color: #ffffff;
+	font-size: 30px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: center;
+	z-index: 11;
+	margin-top:50px;
+	padding-top:3px;
+}
+.socialDiv, .loginForm{
+	height: 602px;
+	overflow: hidden;
+}
+.socialDiv{
+	background: url('../img/socialBg.png');
+}
+
+.loginForm .inputWrap{
+	width: 60%;
+	min-height:100px;
+	height: auto;
+	margin: 0 auto;
+	margin-top:130px;
+	padding: 10px 20px;
+}
+
+.inputWrap .col-sm-6{text-align: center;border-bottom:1px solid #fff;padding-bottom: 5px;cursor: pointer;}
+.bbWrap{
+	color: #fff;
+	overflow: hidden;
+}
+.circleOR{
+	position: absolute;
+	left:48.5%;
+	top:300px;
+	border-radius: 50%;
+	background-color:  #298293;
+	box-shadow: 0px 5px 3.76px 0.24px rgba(62, 55, 55, 0.69);
+	width: 42px;
+	height: 42px;
+	color:  #feffff;
+	font-size: 18px;
+	z-index: 1;
+	padding: 8px 12px;
+}
+.bbWrap .aBr{
+	border-bottom: 3px solid #f5875f;
+}
+.socialContentWrap{
+	width:60%;
+	margin: 0 auto;
+	margin-top:255px;
+	min-height: 100px;
+	height: auto;
+}
+.socialContentWrap .exploreD{
+	text-transform: uppercase;
+	color:  #ffffff;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.socialContentWrap .afterFb{
+	color:  #ffffff;
+	font-size: 12px;/* Approximation due to font substitution */
+	font-weight: 300;
+	margin-top: 15px;
+
+}
+.loginForm .inputWrap input{ 
+	height: 34px;
+	margin-top:10px;
+	width:100%;
+	padding-left: 10px;
+	border-radius: 2px;
+	border: 1px solid #cccccc;
+	color:  #a1a1a1;
+	font-size: 14px;
+}
+.loginForm .inputWrap input[type="button"]{
+	border-radius: 2px;
+	background-color:  #f5875f;
+	color:  #fefefe;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 500;
+	height: 35px;
+	border:none;
+} 
+.loginForm .inputWrap label{
+	color: white;
+}
+
+.loginForm{
+	background: url('../img/loginBg.png');
+}
+.ds_afterLoginSection{
+	min-height: 60px;
+	height:auto;
+	overflow: hidden;background: #ffffff;
+}
+
+.ds_footerContetnSection{
+	background-color:  #1e687e;
+	/*height: 476px;*/
+}
+.ds_footerContetnSection .footerTextWrap{
+	width:90%;
+	margin: 0 auto;
+}
+.footerTextWrap .footerMenu{
+	padding: 15px 0px;
+	position: relative;
+}
+.footerTextWrap .toggleDiv{
+	border-top:1px solid #ffffff;
+}
+.toggleFooter{
+	position: absolute;
+	border-radius: 50%;
+	border-width: 1px;
+	border-color:  #ffffff;
+	border-style: solid;
+	background-color:  #1e687e;
+	width: 40px;
+	height: 40px;
+	bottom: -20px;
+    left: 48%;
+    cursor: pointer;
+}
+
+.toggleFooter img{
+	padding: 7px;
+	margin-top: 8px;
+}
+.footerMenu ul{
+	margin:0px;
+	padding: 0px;
+}
+.footerMenu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 2% 6%;
+   
+
+}
+.footerTextWrap p{
+	padding-top:40px;
+	color: #ffffff;
+	margin: 0px;
+}
+
+.footerMenu ul li a{
+	 color: #ffffff;
+}
+
+.ds_footerSection{
+	height: 63px;
+	color:  #4a4343;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	padding: 20px;
+	border-bottom:1px solid #cdcdcd;
+}
+
+
+
+
+/* propertyPage Broker Logged In start*/
+
+.ds_coverImage{height: 500px;}
+
+.ds_coverImage img{height:100%;width:100%;}
+.dealDetail{border-radius: 3px;background-color:  #ffffff;height: 561px;overflow:hidden;}
+.detailContent{height:561px;padding:10px;    margin: 15px 0px 0px 15px;}
+.detailContent .propName{
+	color:  #1e687e;
+	font-size: 57.11px;/* Approximation due to font substitution */
+	font-weight: 300;
+}
+
+.detailContent label{
+	color:  #4a4343;
+	font-size: 28px;
+}
+
+.detailContent .propAddress{
+	color:  rgba(74, 67, 67, 0.7);
+	font-size: 24px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height:16px;
+}
+.detailContent .propDetail{
+	border-top:1px solid #c2c2c2;
+	border-bottom:1px solid #c2c2c2;
+	height: 150px;
+	overflow: hidden;
+	margin:15px 0px 30px 0px;
+}
+
+.detailContent .propDetailTbl{
+	padding-top:20px;
+	text-align: center;
+}
+.detailContent .propDetailTbl .table{
+	border:1px solid #c2c2c2;
+}
+.detailContent .propDetailTbl .table a{
+	color: rgba(245, 135, 95, 0.7);
+}
+
+.detailContent .propDetailTbl .table tr:nth-child(even) {background: #fff;}
+.detailContent .propDetailTbl .table tr:nth-child(odd) {background: #d7d7d7;}
+
+.dealHighlights{
+	position:absolute;
+	height: 631px;
+	right: 60px;
+	top: 533px;
+	background:url('../img/dealHighlight.png');
+	padding:0px;
+}
+.dealHighlights .dealHiText{
+	color:  #f5875f;
+	font-size: 40.87px;/* Approximation due to font substitution */
+	font-weight: 300;
+	background-color:  #ffffff;
+	box-shadow: 0px 10px 8px 0px rgba(142, 142, 142, 0.35);
+	height: 70px;
+	overflow: hidden;
+	padding:5px;
+}
+
+.dealHighlights .dealHiText img{
+	    margin: 0px 20px 15px 20px;
+}
+
+.dealHighlights .pitchedBy{
+	height: 300px;
+	border-bottom:1px solid red;
+	overflow: hidden;
+
+}
+.dealHighlights .addYourCustomer{
+	background-color:  rgba(245, 135, 95, 0.85);
+	box-shadow: 0px 5px 4.7px 0.3px rgba(142, 142, 142, 0.35);
+	height: 300px;
+	overflow: hidden;
+	margin: 15px;
+    padding: 30px 25px;
+	text-align: center;
+}
+.dealHighlights .clientsInterested{
+	text-transform: uppercase;
+	color:  #ffffff;
+	font-size: 30px;/* Approximation due to font substitution */
+	font-weight: 900;
+	line-height: 30px;/* Approximation due to font substitution */
+}
+
+.dealHighlights .joinNow{
+	color:  #ffffff;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 19px;/* Approximation due to font substitution */
+	text-align: center;
+	margin-top:25px;
+}
+.addYourCustomer input[type='button']{
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 196px;
+	height: 35px;
+    margin-top: 30px;
+    color:  #298293;
+	font-size: 17.97px;/* Approximation due to font substitution */
+	font-weight: 500;
+	line-height: 22px;/* Approximation due to font substitution */
+	text-align: center;
+	transform: scaleY(1.0016);
+}
+
+/* propertyPage Broker Logged In start end*/
+
+
+
+/* home page related css*/
+.ds_homePage .ds_coverImage{
+	height: 602px;
+	overflow:hidden;
+}
+
+.ds_homePage .searchBox{
+	position:absolute;
+	background: url('../img/searchbox.png');
+	height: 120px;
+	overflow: hidden;
+	width:80%;
+	top:638px;
+	left: 10%;
+}
+.searchBox div{
+	width:60%;
+	margin:0 auto;
+	border-radius: 7px;
+	border:1px solid #c2c2c2;
+	background-color:  #ffffff;
+	margin-top: 30px;
+}
+
+.searchBox div select{
+	border-bottom-left-radius: 7px;
+	border-top-left-radius: 7px;
+	border-width: 0.69px;
+	border-color:  #7d7d7d;
+	border-style: solid;
+	background-color:  #f5875f;
+	opacity: 0.3;
+	width: 183px;
+	height: 58px;
+	outline:none;
+
+}
+.searchBox div input{
+	height: 58px;
+    border: none;
+    width: 68%;
+    border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	outline:none;
+	color:  rgba(109, 109, 109, 0.5);
+	font-size: 15.96px;/* Approximation due to font substitution */
+	font-weight: 300;
+	line-height: 22px;/* Approximation due to font substitution */
+	transform: scaleY(1.0023);
+}
+
+.ds_featureHotDeals{
+	background-color:  #f5f5f5;
+	height: 459px;
+	overflow: hidden;
+}
+.ds_homePage .loginDiv{
+	position: absolute;
+	border-radius: 2px;
+	background-color:  rgba(74, 67, 67, 0.65);
+	width: 340px;
+	height: 534px;
+    right: 10%;
+    top: 104px;
+    color:#ffffff;
+    padding: 40px 20px ;
+
+}
+
+.ds_homePage .loginDiv span{
+	display: block;
+}
+
+.ds_homePage .loginDiv input[type='text'], .ds_homePage .loginDiv input[type='password'] {
+	width:100%;
+	border-radius: 2px;
+	height: 45px;
+	border:none;
+	margin-top:10px;
+	color:  #a4a4a4;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	padding-left:10px;
+}
+ .ds_homePage .loginDiv .col-md-6{
+ 	padding:0px;
+ }
+ .ds_homePage .loginDiv input[type='button']{
+ 	width: 95%;
+ 	border-radius: 5px;
+	height: 35px;
+	border:none;
+	margin-bottom:10px;
+ }
+
+ .ds_homePage .loginDiv .signIn{
+ 	background-color:  #f5875f;
+ }
+ .ds_homePage .loginDiv .signUp{
+  	background-color:  #298293;
+ }
+  .ds_homePage .loginDiv .videoEmbedd{
+  	height: 160px;
+  	overflow: hidden;background: #fff;
+  	margin-top:10px;
+  }
+
+
+.ds_featureHotDeals .dealsWrap{
+	overflow: hidden;
+	padding-top:100px;
+	width: 95%;
+    margin: 0 auto;
+
+}
+
+.ds_featureHotDeals .featuredDeals{
+	background: url('../img/featuredDeals.png');
+	height: 250px;
+	overflow: hidden;
+
+}
+.ds_featureHotDeals .hotDeals{
+	background: url('../img/hotDeals.png');
+	height: 250px;
+	overflow: hidden;
+}
+
+.ds_featureHotDeals .featuredDeals .col-md-4 div, .ds_featureHotDeals .hotDeals .col-md-4 div{
+	background:#fff;
+	height: 163px;
+	overflow: hidden;
+}
+.ds_featureHotDeals .featuredDeals .dealHeader, .ds_featureHotDeals .hotDeals .dealHeader{
+	height:75px;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.ds_featureHotDeals input[type='button']{
+	border-radius: 5px;
+	border:1px solid  #636363;
+	background-color:  #f5f5f5;
+	width: 100px;
+	height: 30px;
+	color:  #6d6d6d;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 22px;/* Approximation due to font substitution */
+	text-align: center;
+	margin-top:30px;
+}
+
+.hotDeals .dealHeader{
+	width: 175px;
+	height: 49px;
+	background:url('../img/hotdealHeader.png') no-repeat;
+	color:  #ffffff;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 22px;/* Approximation due to font substitution */
+	text-align: left;
+}
+
+.featuredDeals .dealHeader{
+	background:url('../img/featuredDealsHeader.png') no-repeat !important;
+	color:  #ffffff;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 22px;/* Approximation due to font substitution */
+	text-align: left;
+}
+/* home page related css end*/
+
+
+
+
+
+/* deal page */
+
+.dealPage .dealPageGallery{
+	background-color:  rgba(245, 135, 95, 0.2);
+	height: auto;
+	overflow: hidden;
+	padding:20px;
+}
+
+.dealShocaseHeader, .dealGallery{
+	color:  #4a4343;
+	font-size: 50px;/* Approximation due to font substitution */
+	font-weight: 300;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.dealShocaseHeader .col-md-4, .dealShocaseHeader .col-md-8{
+	padding:0px;
+	width: 32.333333%;
+} 
+.dealShocaseHeader .col-md-8{
+	height: 52px;
+	border-bottom:3px solid #4a4343;
+	width: 67.666667%;
+} 
+
+.dealGallery .col-md-4 div{
+	height: 328px;
+	background-color: #fff;
+
+}
+
+
+/* add Client*/
+
+.addClientContent{
+	/*background: url('../img/addClientBg.png');*/
+	min-height: 500px;
+	height: auto;
+	overflow: hidden;
+}
